@@ -1,0 +1,59 @@
+div.container {
+	width: 100%;
+	border: 1px solid gray;
+	min-height: 100%;
+}
+
+header, footer {
+	padding: 1em;
+	color: white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	color: blue;
+	text-align: left;
+	font-style: italic;
+}
+
+nav {
+	float: left;
+	max-width: 160px;
+	min-height: 430px;
+	margin: 0;
+	padding: 1em;
+	-webkit-animation: anime 5s infinite;
+	animation: anime 30s infinite;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+#querybox {
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+	min-height: 430px;
+}
+
+@
+-webkit-keyframes anime { 50% {
+	background-color: gray;
+}
+
+}
+@
+keyframes anime { 50% {
+	background-color: yellow;
+}
+}
